@@ -89,6 +89,8 @@ docker compose up
 > The grid console can be viewed by accessing "http://localhost:4445/ui/index.html".
 > The nodes linked to the hub can also be viewed in the Grid Console.
 
+https://github.com/RanjithaMalayath/docker-selenium-grid4-automation-testscript/blob/master/AmazonGridDocker/seleniumgridconsole.png
+
 ## Run Testcases from Eclipse
 
 - Goto Eclipse 
