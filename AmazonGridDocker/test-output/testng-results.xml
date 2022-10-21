@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-21T07:19:32Z" name="Grid Test Suite" finished-at="2022-10-21T07:21:00Z" duration-ms="87970">
+    <groups>
+    </groups>
+    <test started-at="2022-10-21T07:19:32Z" name="Amazon TestCase on Firefox" finished-at="2022-10-21T07:20:59Z" duration-ms="87485">
+      <class name="com.amazon.container.test.AmazonTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:com.amazon.container.test.AmazonTest@ed7f8b4]" started-at="2022-10-21T07:19:32Z" name="launchbrowser" finished-at="2022-10-21T07:19:49Z" duration-ms="17672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="amazonTest()[pri:0, instance:com.amazon.container.test.AmazonTest@ed7f8b4]" started-at="2022-10-21T07:19:49Z" name="amazonTest" finished-at="2022-10-21T07:20:54Z" duration-ms="64559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.amazon.container.test.AmazonTest@ed7f8b4]" started-at="2022-10-21T07:20:54Z" name="closeApp" finished-at="2022-10-21T07:20:59Z" duration-ms="5237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.amazon.container.test.AmazonTest -->
+    </test> <!-- Amazon TestCase on Firefox -->
+    <test started-at="2022-10-21T07:19:32Z" name="Amazon TestCase on Chrome" finished-at="2022-10-21T07:21:00Z" duration-ms="87970">
+      <class name="com.amazon.container.test.AmazonTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:com.amazon.container.test.AmazonTest@76ed1b7c]" started-at="2022-10-21T07:19:32Z" name="launchbrowser" finished-at="2022-10-21T07:19:42Z" duration-ms="10381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="amazonTest()[pri:0, instance:com.amazon.container.test.AmazonTest@76ed1b7c]" started-at="2022-10-21T07:19:42Z" name="amazonTest" finished-at="2022-10-21T07:20:59Z" duration-ms="76663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.amazon.container.test.AmazonTest@76ed1b7c]" started-at="2022-10-21T07:20:59Z" name="closeApp" finished-at="2022-10-21T07:21:00Z" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.amazon.container.test.AmazonTest -->
+    </test> <!-- Amazon TestCase on Chrome -->
+  </suite> <!-- Grid Test Suite -->
+</testng-results>

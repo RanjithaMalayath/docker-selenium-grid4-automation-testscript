@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Grid Test Suite" parallel="tests">
+	<test name="Amazon TestCase on Firefox">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.amazon.container.test.AmazonTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Amazon TestCase on Chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.amazon.container.test.AmazonTest"></class>
+		</classes>
+	</test>	
+	
+</suite>
